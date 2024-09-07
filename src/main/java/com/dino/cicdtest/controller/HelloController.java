@@ -13,6 +13,11 @@ public class HelloController {
 
     @GetMapping("/goodbye")
     public String goodbye() {
-        return "Goodbye, Dino!";
+        return "Goodbye, World!";
+    }
+
+    @GetMapping("/greeting")
+    public String greeting() {
+        return "Greetings, World!";
     }
 }
