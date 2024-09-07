@@ -8,16 +8,16 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "Hello, Dino!";
     }
 
     @GetMapping("/goodbye")
     public String goodbye() {
-        return "Goodbye, World!";
+        return "Goodbye, Dino!";
     }
 
     @GetMapping("/greeting")
     public String greeting() {
-        return "Greetings, World!";
+        return "Greetings, Dino!";
     }
 }
